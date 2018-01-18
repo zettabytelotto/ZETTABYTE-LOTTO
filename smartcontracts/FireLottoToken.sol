@@ -158,18 +158,18 @@ contract StandardToken is ERC20, BasicToken {
 }
 
 
-contract FireLottoToken is StandardToken {
+contract ZettaByteLottoToken is StandardToken {
 
   string public name = "Fire Lotto";
-  string public symbol = "FLOT";
+  string public symbol = "ZBL";
   uint256 public decimals = 18;
   
-  uint256 public INITIAL_SUPPLY = 100000000 * 1 ether;
+  uint256 public INITIAL_SUPPLY = 100000000 * 0.001 ether;
 
   /**
    * @dev Contructor that gives msg.sender all of existing tokens. 
    */
-  function FireLottoToken() {
+  function ZettaByteLottoToken() {
     totalSupply = INITIAL_SUPPLY;
     balances[msg.sender] = INITIAL_SUPPLY;
   }
