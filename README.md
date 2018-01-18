@@ -1,2 +1,2 @@
 # zettabytelotto
-International Blockchain Lottery.
+International Blockchain Lottery
