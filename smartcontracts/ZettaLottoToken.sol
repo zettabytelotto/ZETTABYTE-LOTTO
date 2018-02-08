@@ -171,7 +171,7 @@ contract ZettaLottoToken is StandardToken {
    */
   function ZettaLottoToken() {
     totalSupply = INITIAL_SUPPLY;
-    balances[msg.sender] = INITIAL_SUPPLY ;
+    balances[msg.sender] = INITIAL_SUPPLY;
   }
 
 }
