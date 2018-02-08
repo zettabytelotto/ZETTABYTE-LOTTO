@@ -158,10 +158,10 @@ contract StandardToken is ERC20, BasicToken {
 }
 
 
-contract ZettaByteLottoToken is StandardToken {
+contract ZettaLottoToken is StandardToken {
 
-  string public name = "ZettaByteLotto";
-  string public symbol = "ZBL";
+  string public name = "ZettaLotto";
+  string public symbol = "ZLOT";
   uint256 public decimals = 18;
   
   uint256 public INITIAL_SUPPLY = 100000000 * 1 ether;
@@ -169,9 +169,9 @@ contract ZettaByteLottoToken is StandardToken {
   /**
    * @dev Contructor that gives msg.sender all of existing tokens. 
    */
-  function ZettaByteLottoToken() {
+  function ZettaLottoToken() {
     totalSupply = INITIAL_SUPPLY;
-    balances[msg.sender] = INITIAL_SUPPLY;
+    balances[msg.sender] = INITIAL_SUPPLY ;
   }
 
 }
